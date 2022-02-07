@@ -45,6 +45,15 @@ För att radera ett environment skriva
 
 ENV_NAME är namnet på environmentet som ska raderas.
 
+## TIPS: Se installerade paket
+För att se vilka paket som är installerade i ett virtual environment aktiverar man först environmentet
+
+	conda activate ENV_NAME
+
+Sedan listar man upp alla paket
+
+	conda list
+
 ## TIPS: git + kursens repo = sant
 
 Det är ett repository för kursen. För att få ner det lokalt på din dator behöver du öppna en terminal och använda git-kommandon enligt följande instruktioner:
@@ -137,4 +146,3 @@ Länkar till böckerna:
 Vi har ett premium medlemskap till Data Camp Classroom. Data Camp är en platform med kurser och övningar inom Data Science. Denna kan ni använda för att komplettera utbildningen. 
 
 För att få fri tillång måste ni följa denna länken [Data Camp Classroom](https://www.datacamp.com/groups/shared_links/1e9ec73fbf3dd46f0a0a9c8a9e773774c7ad2add6677109d698782ea059a2ae3) och skapa ett konto med studentmailen *@utb.ecutbildning.se*  
- 
